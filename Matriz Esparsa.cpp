@@ -28,6 +28,7 @@ void insere(MatEsp * veetLin[], MatEsp* vvetCol[], int Lin, int Col, int valor){
 				vetLin[lin] = nova;
 				nova -> pl = NULL;
 			}
+			
 			else{
 				if(col < vetLin[lin] -> col){
 					nova -> pl = vetLin[lin];
@@ -52,3 +53,20 @@ void insere(MatEsp * veetLin[], MatEsp* vvetCol[], int Lin, int Col, int valor){
 		printf("Coord fora da matriz! \n");
 }
 
+
+void exibe(MatEspp * vetlIn){
+	int i,j;
+	MatEsp *aux;
+	
+	for(i=0; i<nl; i++){
+		for(j=0; j<nc; j++)[
+			verificaOcupado(vetLin,i,j,&aux);
+			if(aux != NULL){
+				printf("%d \t", aux->valor);
+			}
+			else
+				printf("0\t");
+		]
+		printf("\n");
+	}
+}
