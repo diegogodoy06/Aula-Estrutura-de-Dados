@@ -1,0 +1,4 @@
+void insere(MatEsp * veetLin[]){
+	
+}
+
