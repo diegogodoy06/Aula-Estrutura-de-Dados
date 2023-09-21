@@ -27,3 +27,11 @@ void soma(MatEsp *vetLinA[], MatEsp vetLinB[], MatEsp *vetLinC[], MatEsp * vetCo
 				insere(vetLinC, vetor i,j,soma);
 		}
 }
+
+void multiplicaEsparsa(MatEsp *vetLinA[], MatEsp vetLinB[], MatEsp *vetLinC[], MatEsp * vetColC[]){
+	MatEsp * aux;
+	
+	
+	
+	
+}
